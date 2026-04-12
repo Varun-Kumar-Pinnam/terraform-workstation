@@ -1,4 +1,4 @@
-resource "aws_instance" "docker" {
+resource "aws_instance" "workstation" {
   ami                    = local.ami_id
   instance_type          = "t3.micro"
   vpc_security_group_ids = [local.sg_id]
