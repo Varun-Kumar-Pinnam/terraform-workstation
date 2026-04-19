@@ -61,7 +61,7 @@ cd /home/ec2-user/eksctl
 /usr/local/bin/eksctl create cluster --config-file=eks.yaml
 
 # Authenticate kubectl with the cluster
-ec2-user aws eks update-kubeconfig --region us-east-1 --name roboshop
+aws eks update-kubeconfig --region us-east-1 --name roboshop
 
 EOF
 
